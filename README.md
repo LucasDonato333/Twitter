@@ -200,7 +200,7 @@ Para a execução do código, instale as bibliotecas descritas na primeira pagin
 |----------|-------|
 |**import tweepy** |pip install tweepy|
 |**from time import sleep**|pip install time|
-|**import unicodedata**|unicodedata|
+|**import unicodedata**| pip install unicodedata|
 |**from datetime import datetime**|pip install DateTime|
 |**from datetime import timedelta**| pip install DateTime|
 |**from random import randint**| pip install random2|
