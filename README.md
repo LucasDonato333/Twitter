@@ -74,7 +74,11 @@ asecret = ""
 ###### DICIONARIO CRIADO COM AS CHAVES DO TWITTER
 
 ```python
-OAUTH_KEYS = {'consumer_key':ckey, 'consumer_secret':csecret,'access_token_key':atoken, 'access_token_secret':asecret}
+OAUTH_KEYS = {'consumer_key':ckey,
+              'consumer_secret':csecret,
+              'access_token_key':atoken,
+              'access_token_secret':asecret}
+
 auth = tweepy.OAuthHandler(OAUTH_KEYS['consumer_key'], OAUTH_KEYS['consumer_secret'])
 api = tweepy.API(auth)
 ```
